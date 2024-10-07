@@ -14,6 +14,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2185/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/realme/RMX2185/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
     vendor/realme/RMX2185/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/system/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.RMX2185:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.RMX2185 \
+    vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
     vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/etc/diracmobile.config:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/diracmobile.config \
     vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/libDiracAPI_SHARED.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libDiracAPI_SHARED.so \
     vendor/realme/RMX2185/proprietary/product/vendor_overlay/29/lib/libdpframework.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdpframework.so \
